@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav,
+footer{
+    background-color: beige;
+ 
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+}
+
+/* .links {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+h1 .links {
+    display: inline-block;
+} */
+
+.img-fluid {
+    opacity: 0.7;
+}
+
+.about-section {
+    padding: 20px;
+    background-color: bisque;
+    margin: 0px;
+}
+
+.about {
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-info {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.service {
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: solid 2px coral;
+}
+
+.line {
+    border-bottom: solid 2px coral;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .services-offer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+} */
+
+
+.box {
+    width: 450px;
+    background-color: black;
+    height: 100px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cta-box {
+    margin: 20px;
+    padding: 20px;
+}
+
+.tagline {
+    position: absolute;
+    top: 200px;
+    /* left: 450px; */
+    color: black;
+    font-size: 3rem;
+    /* width: 500px; */
+    text-align: center;
+}
+
+.btn-learn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.logo, .links {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-items: flex-end;
+    margin: 10px;
+    padding: 10px;
+}
+
+.links {
+    gap: 20px;
+    display: inline-flex;
+    align-content: center;
+}
+
+
+/* login form */
+
+.login-form {
+    background-color: white;
+    height: 300px;
+    width: 370px;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 30px;
+    line-height: 30px;
+}
+
+
+input {
+    width: 350px;
+    height: 30px;
+}
+
+.btn-login {
+    width: 360px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+
+.btn-login:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.ask, .signup-link {
+    display: inline-flex;
+}
+
+.signup-link a {
+    margin-left: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+/* signup form */
+
+.signup-form {
+    background-color: white;
+    height: 600px;
+    width: 370px;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    line-height: 30px;
+}
+
+
+.hair-services, 
+.hair-color, 
+.hair-spa {
+    display: inline-block;
+    margin: 30px;
+    padding: 30px;
+   
+}
+
+/* li {
+  list-style: none;
+  text-align: center;
+}
+
+ul {
+    text-align: center;
+} */
+
+.hair-type {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.for-btn,
+.button {
+    display: inline-block;
+   gap: 20px;
+}
+
+.button {
+
+}
